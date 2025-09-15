@@ -69,12 +69,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed text-sm top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-white/95 backdrop-blur-md shadow-lg py-2' 
-        : 'bg-transparent py-4'
+        : 'bg-transparent py-2'
     }`}>
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
@@ -98,12 +98,12 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-4">
             {menuItems.map((item, index) => (
               <div key={index} className="relative group">
                 <Link
                   href={item.href}
-                  className={`flex items-center space-x-1 px-4 py-2 rounded-full font-medium transition-all duration-300 ${
+                  className={`flex items-center space-x-1 px-4 py-1 rounded-full font-medium transition-all duration-300 ${
                     isScrolled 
                       ? 'text-gray-700 hover:text-rose-600 hover:bg-rose-50' 
                       : 'text-white hover:text-rose-200 hover:bg-white/10'

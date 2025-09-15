@@ -108,15 +108,6 @@ export default function WeddingHeroSection() {
           </div>
         </div>
 
-        {/* Scroll Down Indicator */}
-        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 hidden md:block">
-          <div className="animate-bounce">
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-            </div>
-          </div>
-        </div>
-
         {/* Decorative Elements */}
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none z-5">
           <div className="absolute top-10 left-10 w-20 h-20 bg-pink-400/20 rounded-full blur-xl animate-pulse"></div>
