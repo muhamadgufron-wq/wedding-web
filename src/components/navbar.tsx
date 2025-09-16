@@ -44,18 +44,13 @@ export default function Navbar() {
       icon: null
     },
     { 
-      name: 'Tentang Kami', 
-      href: '/about',
-      icon: null
-    },
-    { 
       name: 'Testimoni', 
       href: '#testimonials',
       icon: null
     },
     { 
-      name: 'Kontak', 
-      href: '#contact',
+      name: 'Tentang Kami', 
+      href: '/about',
       icon: null
     }
   ];
@@ -138,7 +133,7 @@ export default function Navbar() {
           {/* CTA Button & Mobile Menu Toggle */}
           <div className="flex items-center space-x-4">
             <button className="hidden lg:block bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
-              Konsultasi Gratis
+              Instagram
             </button>
             
             {/* Mobile Menu Toggle */}

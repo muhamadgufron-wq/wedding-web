@@ -113,7 +113,7 @@ export default function PortfolioHighlight() {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-2 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           {/* Section Header */}
           <div className="text-center mb-16">
@@ -121,7 +121,7 @@ export default function PortfolioHighlight() {
               <Camera size={16} />
               Portfolio Kami
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-6">
               Galeri Wedding Terbaik
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -209,11 +209,11 @@ export default function PortfolioHighlight() {
           </div>
 
           {/* CTA Section */}
-          <div className="text-center mt-16">
+          <div className="text-center mt-10">
             <p className="text-lg text-gray-600 mb-6">
               Ingin melihat portfolio lengkap kami?
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Lihat Portfolio Lengkap
               </button>

@@ -18,7 +18,7 @@ export default function Footer() {
 
         <div className="relative">
           {/* Main Footer Content */}
-          <div className="max-w-7xl mx-auto px-6 pt-16 pb-8">
+          <div className="max-w-5xl mx-auto px-6 pt-16 pb-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
               
               {/* Company Info */}

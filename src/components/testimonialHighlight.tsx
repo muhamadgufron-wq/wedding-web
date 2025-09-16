@@ -89,7 +89,7 @@ export default function TestimonialHighlight() {
   const currentClient = testimonials[currentTestimonial];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-purple-50 relative overflow-hidden">
+    <section className="py-12 bg-gradient-to-br from-pink-50 via-white to-purple-50 relative overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
         <div className="absolute top-20 left-10 w-32 h-32 bg-pink-200/30 rounded-full blur-3xl"></div>
@@ -97,7 +97,7 @@ export default function TestimonialHighlight() {
         <div className="absolute top-1/2 left-1/2 w-20 h-20 bg-rose-200/40 rounded-full blur-2xl"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 relative">
+      <div className="max-w-5xl mx-auto px-6 relative">
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-pink-100 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
