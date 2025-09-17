@@ -29,7 +29,7 @@ export default function Navbar() {
     },
     { 
       name: 'Layanan', 
-      href: '#services',
+      href: '/services',
       icon: ChevronDown,
       dropdown: [
         { name: 'Wedding Planning', href: '/services/planning', icon: Sparkles },
